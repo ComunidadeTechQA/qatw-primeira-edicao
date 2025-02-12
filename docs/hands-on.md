@@ -8,11 +8,15 @@
 
 ![alt text](image.png)
 
-## Running the initial tests (by default they run in three different browsers - Chrome, Firefox and Safari)
+## Run the initial tests (by default they run in three different browsers - Chrome, Firefox and Safari)
 
     npx playwright test
 
 ![alt text](image-1.png)
+
+## By default, playwright projects run in headless mode, to run it in the browser you can try the command below: 
+
+    npx playwright test --headed
 
 ## Showing the native report on the browser
 
@@ -33,6 +37,26 @@
 
 ![alt text](image-5.png)
 
+## Access postgresql database (credentials can be found in the 'docker-compose.yml' file)
+
+    http://paybank-dbadm:15432
+
+a) General tab
+![alt text](image-6.png)
+
+b) Connection tab
+![alt text](image-7.png)
+
 ## Creating login test case using Playwright Codegen
 
     npx playwright codegen http://paybank-mf-auth:3000
+
+## In order to open the Playwright Test console (similar to what we have with Cypress dashboard), you can use:
+
+    npx playwright test --headed
+
+## To Debug, go with:
+
+    npx playwright test --debug
+
+## 
