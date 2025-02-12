@@ -61,3 +61,7 @@ O projeto utiliza Docker Compose para gerenciar os serviços necessários para o
 
 ## 📄 Licença
 Este projeto está sob a licença MIT.
+
+## Siga as instruções abaixo para seguir o passo a passo do conteúdo abordado durante a semana de treinamento da QA Tech Week Primeira Edição.
+
+[Hands On](docs/hands-on.md)
